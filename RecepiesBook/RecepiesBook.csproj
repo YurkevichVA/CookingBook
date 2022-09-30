@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Pics\Баклажани зі шпінатом.jpg" />
+    <None Remove="Pics\Вівсяне печиво.jpg" />
+    <None Remove="Pics\Веганські бургери з червоної сочевиці.jpg" />
+    <None Remove="Pics\Веганські котлети з броколі.jpg" />
+    <None Remove="Pics\Гарбузовий суп.jpg" />
+    <None Remove="Pics\Кускус з апельсином м%27ятою та лісовим горіхом.jpg" />
+    <None Remove="Pics\Морквяний хумус.jpg" />
+    <None Remove="Pics\Пряний грибний паштет.jpg" />
+    <None Remove="Pics\Рататуй.jpg" />
+    <None Remove="Pics\Тартар з грибів.jpeg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Pics\Баклажани зі шпінатом.jpg" />
+    <Resource Include="Pics\Вівсяне печиво.jpg" />
+    <Resource Include="Pics\Веганські бургери з червоної сочевиці.jpg" />
+    <Resource Include="Pics\Веганські котлети з броколі.jpg" />
+    <Resource Include="Pics\Гарбузовий суп.jpg" />
+    <Resource Include="Pics\Кускус з апельсином м'ятою та лісовим горіхом.jpg" />
+    <Resource Include="Pics\Морквяний хумус.jpg" />
+    <Resource Include="Pics\Пряний грибний паштет.jpg" />
+    <Resource Include="Pics\Рататуй.jpg" />
+    <Resource Include="Pics\Тартар з грибів.jpeg" />
+  </ItemGroup>
+
+</Project>
